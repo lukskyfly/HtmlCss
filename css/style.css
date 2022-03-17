@@ -102,7 +102,7 @@ a.tilelink
 }
 .ig:hover
 {
-   background-image: url(img/tloInsta.jpg);
+   background-image: url("img/tloInsta.jpg");
 }
 .footer
 {

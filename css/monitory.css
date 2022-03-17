@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("img/tlo.png");
+    background-image: url("img/tlo.png") no-repeat 0px 0px;
     margin: 0px;
     font-family: 'open Sans', sans-serif;
     font-size: 20px;
@@ -102,16 +102,15 @@ a:active
     text-decoration: none;  
 }
 .scrollUp
-
 {
     width: 64px; 
     height: 64px;
     text-decoration: none;
-    background: url(img/up.png) no-repeat 0px 0px;
+    background-image: url("img/up.png") no-repeat 0px 0px; 
     position: fixed;
     right: 100px;
     bottom: 100px;
-    display: none;
+    display:none;
     
     border-radius: 1px solid gray;
 }
