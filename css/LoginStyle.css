@@ -12,7 +12,7 @@ body
     margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("img/tloformularza.jpg") no-repeat 0px 0px;
+    background: url(../img/tloformularza.jpg) no-repeat 0px 0px;
     /*boxshadow generator*/
     box-shadow: 5px -11px 39px 10px rgba(66, 68, 90, 1);
     border-radius: 5px;

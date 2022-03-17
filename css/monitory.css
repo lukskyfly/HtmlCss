@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("img/tlo.png") no-repeat 0px 0px;
+    background-image: url("../img/tlo.png") no-repeat 0px 0px;
     margin: 0px;
     font-family: 'open Sans', sans-serif;
     font-size: 20px;
@@ -106,12 +106,11 @@ a:active
     width: 64px; 
     height: 64px;
     text-decoration: none;
-    background-image: url("img/up.png") no-repeat 0px 0px; 
+    background: url(../img/up.png) no-repeat 0px 0px; 
     position: fixed;
     right: 100px;
     bottom: 100px;
-    display:none;
-    
+    display:inline-b;
     border-radius: 1px solid gray;
 }
 #footer
