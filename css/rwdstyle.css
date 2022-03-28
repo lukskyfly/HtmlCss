@@ -1,7 +1,7 @@
-body
+:root
 {
-background-color: black;
-color: black;
+    --main-radius:5px;
+    --main-padding:5px;
 }
 .container
 {
@@ -15,41 +15,61 @@ color: black;
     "sidebar content1 content2 content3"
     "sidebar footer footer footer";
     grid-gap: 0.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #004d40;
+    text-align: center;
 }
 nav
 {
     grid-area:nav;
     background-color: aquamarine;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 main
 {
     grid-area:main;
     background-color: aqua;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 #sidebar
 {
     grid-area:sidebar;
     background-color: cornflowerblue;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 #content1
 {
     grid-area:content1;
     background-color: #64ffda;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 #content2
 {
     grid-area:content2;
     background-color: #73ffba;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 #content3
 {
     grid-area:content3;
     background-color: #6fffda;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 footer
 {
     grid-area:footer;
     background-color: #1de9b6;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
 }
 @media only screen and (max-width: 700px)
 {
