@@ -95,3 +95,17 @@ input[type=text]
 {
 margin-top: 250px;
 }
+.box
+{
+    width: 300px;
+    height: auto;
+    border: black solid 1px;
+    background-color: beige;
+    text-align: center;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    float: left;
+    padding-bottom: 25px;
+}
